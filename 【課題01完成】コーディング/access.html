@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>アクセス</title>
+</head>
+<body>
+  <header class="header">
+    <div class="flex is-between is-center">
+      <div class="header-left">
+        <h1 class="header-seo">大阪で一番品揃がいいキャンプのお店</h1>
+        <p class="header-logo"><img src="img/logo.png" width="165" alt="CAMPnavi"></p>
+      </div>
+
+      <div class="header-right">
+        <p class="header-tel">TEL：06-0000-0000</p>
+        <address class="header-address">住所：大阪市浪速区大国2-2-22</address>
+      </div>
+    </div>
+
+    <div id="js-gnavbtn" class="gnavbtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="gnav">
+      <ul class="flex">
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="item.html">商品一覧</a></li>
+        <li><a href="#">お知らせ</a></li>
+        <li><a href="qa.html">よくある質問</a></li>
+        <li class="active"><a href="access.html">アクセス</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+        <li class="sp-tel sp"><a href="tel:06-0000-0000">クリックして電話をかける</a>
+      </ul>
+    </nav>
+  </header>
+  <!-- header last -->
+
+  <div class="mv"><img src="img/page-thum01.jpg" width="100%" alt=""></div>
+
+  <main class="access-wrap">
+    <h2 class="item-section-title"><span>access</span>アクセス</h2>
+
+    <table class="table-style">
+      <tr>
+        <th>会社名</th>
+        <td>会社名がはいります。会社名がはいります。</td>
+      </tr>
+      <tr>
+        <th>会社名</th>
+        <td>会社名がはいります。会社名がはいります。</td>
+      </tr>
+      <tr>
+        <th>会社名</th>
+        <td>会社名がはいります。会社名がはいります。</td>
+      </tr>
+      <tr>
+        <th>会社名</th>
+        <td>会社名がはいります。会社名がはいります。</td>
+      </tr>
+    </table>
+  </main>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.314962978491!2d135.49907445114357!3d34.67199948034584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e711361b1273%3A0xc014cffbbb0ac797!2z5aSn6Ziq5bqc5aSn6Ziq5biC5Lit5aSu5Yy65b-D5paO5qmL562L!5e0!3m2!1sja!2sjp!4v1581653127985!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+  <footer class="footer">
+    <div class="footer-inner flex">
+      <div class="footer-address">
+        <p class="footer-logo">CAMPnavi</p>
+        <p class="footer-tel">TEL：06-0000-0000</p>
+        <address>住所：大阪市浪速区大国2-2-22</address>
+      </div>
+
+      <nav class="footer-nav flex">
+        <ul class="footer-nav-list">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="item.html">商品一覧</a></li>
+          <li><a href="#">お知らせ</a></li>
+        </ul>
+        <ul class="footer-nav-list">
+          <li><a href="qa.html">よくある質問</a></li>
+          <li><a href="access.html">アクセス</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="copylight"><small>copylight@CAMPnavi</small></p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+  $(function() {
+    $("#js-gnavbtn").click(function() {
+    $('body').toggleClass("show");
+    });
+  });
+  </script>
+</body>
+</html>
